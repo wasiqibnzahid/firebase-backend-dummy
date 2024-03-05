@@ -5,4 +5,4 @@ const app = admin.initializeApp({
   credential: admin.credential.cert(serviceAccount as ServiceAccount),
 });
 
-export { app }    ;
+export { app };
